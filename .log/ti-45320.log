@@ -1,0 +1,35 @@
+[14:22:05.490] Global cache location '/home/lucas/.cache/typescript/4.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[14:22:05.491] Processing cache location '/home/lucas/.cache/typescript/4.7'
+[14:22:05.491] Trying to find '/home/lucas/.cache/typescript/4.7/package.json'...
+[14:22:05.492] Loaded content of '/home/lucas/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.599"}}
+[14:22:05.492] Loaded content of '/home/lucas/.cache/typescript/4.7/package-lock.json'
+[14:22:05.492] Finished processing cache location '/home/lucas/.cache/typescript/4.7'
+[14:22:05.492] Process id: 45327
+[14:22:05.492] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[14:22:05.492] validateDefaultNpmLocation: false
+[14:22:05.493] Npm config file: /home/lucas/.cache/typescript/4.7/package.json
+[14:22:05.493] Updating types-registry npm package...
+[14:22:05.493] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[14:22:06.739]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 832ms
+
+found 0 vulnerabilities
+
+[14:22:06.739] Updated types-registry npm package
+[14:37:04.626] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/lucas/Workspaces/darf-calc/src/app/services","kind":"discover"}
+[14:37:04.686] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[14:37:04.686] Explicitly included types: []
+[14:37:04.687] Inferred typings from unresolved imports: []
+[14:37:04.687] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/lucas/Workspaces/darf-calc/src/app/services/bower_components","/home/lucas/Workspaces/darf-calc/src/app/services/node_modules"]}
+[14:37:04.688] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/lucas/Workspaces/darf-calc/src/app/services/bower_components","/home/lucas/Workspaces/darf-calc/src/app/services/node_modules"]}
+[14:37:04.688] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/bower_components
+[14:37:04.689] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:37:04.691] Elapsed:: 2.148007996380329ms DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:37:04.691] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/node_modules
+[14:37:04.691] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:37:04.692] Elapsed:: 0.17802099883556366ms DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Workspaces/darf-calc/src/app/services/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:37:04.692] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:37:04.692] Response has been sent.
+[14:37:04.692] No new typings were requested as a result of typings discovery

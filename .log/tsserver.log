@@ -1,0 +1,814 @@
+Info 0    [20:03:02.150] Starting TS Server
+Info 1    [20:03:02.150] Version: 4.7.4
+Info 2    [20:03:02.150] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/lucas/Workspaces/darf-calc/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/dba9df1d3a8b0b9fe38f79d3211eeb25/tscancellation*
+Info 3    [20:03:02.150] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [20:03:02.150] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [20:03:02.167] Format host information updated
+Info 6    [20:03:02.209] Search path: /home/lucas/Workspaces/darf-calc/src/app
+Info 7    [20:03:02.211] For info: /home/lucas/Workspaces/darf-calc/src/app/app.component.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 8    [20:03:02.211] Creating configuration project /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 9    [20:03:02.251] Config: /home/lucas/Workspaces/darf-calc/tsconfig.json : {
+ "rootNames": [
+  "/home/lucas/Workspaces/darf-calc/src/main.ts",
+  "/home/lucas/Workspaces/darf-calc/src/polyfills.ts",
+  "/home/lucas/Workspaces/darf-calc/src/test.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/app-routing.module.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/app.component.spec.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/app.component.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/app.module.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/mean-price/mean-price.component.spec.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/mean-price/mean-price.component.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/broker.service.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/entities/broker.entity.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/entities/operation.entity.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/entities/purchase.entity.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/entities/sell.entity.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.spec.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/transaction-history/transaction-history.component.spec.ts",
+  "/home/lucas/Workspaces/darf-calc/src/app/transaction-history/transaction-history.component.ts",
+  "/home/lucas/Workspaces/darf-calc/src/environments/environment.prod.ts",
+  "/home/lucas/Workspaces/darf-calc/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/lucas/Workspaces/darf-calc",
+  "outDir": "/home/lucas/Workspaces/darf-calc/dist/out-tsc",
+  "forceConsistentCasingInFileNames": true,
+  "strict": true,
+  "noImplicitOverride": true,
+  "noPropertyAccessFromIndexSignature": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 7,
+  "module": 6,
+  "lib": [
+   "lib.es2020.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/home/lucas/Workspaces/darf-calc/tsconfig.json"
+ }
+}
+Info 10   [20:03:02.629] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 11   [20:03:05.390] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 2760.686529994011ms
+Info 12   [20:03:05.390] Project '/home/lucas/Workspaces/darf-calc/tsconfig.json' (Configured)
+Info 13   [20:03:05.390] 	Files (338)
+
+Info 14   [20:03:05.390] -----------------------------------------------
+Info 15   [20:03:05.406] AutoImportProviderProject: found 4 root files in 4 dependencies in 13.256301999092102 ms
+Info 16   [20:03:05.407] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [20:03:05.591] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 184.2174720019102ms
+Info 18   [20:03:05.591] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [20:03:05.591] 	Files (210)
+
+Info 20   [20:03:05.591] -----------------------------------------------
+Info 21   [20:03:05.599] Search path: /home/lucas/Workspaces/darf-calc/src/app/services
+Info 22   [20:03:05.599] For info: /home/lucas/Workspaces/darf-calc/src/app/services/broker.service.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 23   [20:03:05.600] Search path: /home/lucas/Workspaces/darf-calc/src/app/services/entities
+Info 24   [20:03:05.600] For info: /home/lucas/Workspaces/darf-calc/src/app/services/entities/operation.entity.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 25   [20:03:05.601] Search path: /home/lucas/Workspaces/darf-calc/src/app/services/entities
+Info 26   [20:03:05.601] For info: /home/lucas/Workspaces/darf-calc/src/app/services/entities/purchase.entity.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 27   [20:03:05.602] Search path: /home/lucas/Workspaces/darf-calc/src/app/services/entities
+Info 28   [20:03:05.602] For info: /home/lucas/Workspaces/darf-calc/src/app/services/entities/sell.entity.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 29   [20:03:05.603] Search path: /home/lucas/Workspaces/darf-calc/src/app/services/entities
+Info 30   [20:03:05.603] For info: /home/lucas/Workspaces/darf-calc/src/app/services/entities/broker.entity.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 31   [20:03:05.603] Search path: /home/lucas/Workspaces/darf-calc/src/app/services/entities
+Info 32   [20:03:05.603] For info: /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 33   [20:03:05.603] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 34   [20:03:05.672] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 68.79299400746822ms
+Info 35   [20:03:05.672] Different program with same set of files
+Info 36   [20:03:05.673] Search path: /home/lucas/Workspaces/darf-calc/src/app/transaction
+Info 37   [20:03:05.673] For info: /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 38   [20:03:05.673] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 39   [20:03:05.690] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 16.290449991822243ms
+Info 40   [20:03:05.690] Different program with same set of files
+Info 41   [20:03:06.741] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.log/ti-53928.log 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 42   [20:03:06.741] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.log/ti-53928.log
+Info 43   [20:03:06.741] Elapsed:: 0.5422170013189316ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.log/ti-53928.log 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 44   [20:03:11.951] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 45   [20:03:11.952] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 46   [20:03:11.952] Elapsed:: 0.34026999771595ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 47   [20:03:11.952] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 48   [20:03:11.952] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_
+Info 49   [20:03:11.952] Elapsed:: 0.2226099967956543ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 50   [20:03:11.952] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 51   [20:03:11.952] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_
+Info 52   [20:03:11.952] Elapsed:: 0.18220600485801697ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 53   [20:03:11.952] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 54   [20:03:11.953] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_
+Info 55   [20:03:11.953] Elapsed:: 0.13619400560855865ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 56   [20:03:11.953] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 57   [20:03:11.953] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 58   [20:03:11.953] Elapsed:: 0.12697599828243256ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 59   [20:03:11.953] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 60   [20:03:11.953] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 61   [20:03:11.953] Elapsed:: 0.17820300161838531ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 62   [20:03:11.953] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 63   [20:03:11.954] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 64   [20:03:11.954] Elapsed:: 0.21700100600719452ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 65   [20:03:11.954] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 66   [20:03:11.954] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_
+Info 67   [20:03:11.954] Elapsed:: 0.17265300452709198ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 68   [20:03:11.954] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 69   [20:03:11.954] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack
+Info 70   [20:03:11.954] Elapsed:: 0.15997399389743805ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/4.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 71   [20:03:11.954] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 72   [20:03:11.955] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 73   [20:03:11.955] Elapsed:: 0.15202999114990234ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 74   [20:03:11.955] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 75   [20:03:11.955] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack
+Info 76   [20:03:11.955] Elapsed:: 0.5106559991836548ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 77   [20:03:11.956] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_ 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 78   [20:03:11.956] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_
+Info 79   [20:03:11.956] Elapsed:: 0.19304800033569336ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack_ 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 80   [20:03:11.956] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 81   [20:03:11.956] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack
+Info 82   [20:03:11.956] Elapsed:: 0.15591099858283997ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/1.pack 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 83   [20:03:11.956] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 84   [20:03:11.956] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_
+Info 85   [20:03:11.956] Elapsed:: 0.2138880044221878ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 86   [20:03:11.957] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack 14:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 87   [20:03:11.957] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack
+Info 88   [20:03:11.957] Elapsed:: 0.16364699602127075ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack 14:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 89   [20:03:11.957] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 15:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 90   [20:03:11.957] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 91   [20:03:11.957] Elapsed:: 0.18929199874401093ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 15:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 92   [20:03:11.957] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 16:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 93   [20:03:11.957] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 94   [20:03:11.957] Elapsed:: 0.14115799963474274ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 16:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 95   [20:03:21.331] forEachExternalModuleToImportFrom autoImportProvider: 2.1111429929733276
+Info 96   [20:03:23.465] forEachExternalModuleToImportFrom autoImportProvider: 1.7402919977903366
+Info 97   [20:03:25.134] forEachExternalModuleToImportFrom autoImportProvider: 1.6430310010910034
+Info 98   [20:03:57.672] forEachExternalModuleToImportFrom autoImportProvider: 0.5852469950914383
+Info 99   [20:03:59.169] forEachExternalModuleToImportFrom autoImportProvider: 2.2906510084867477
+Info 100  [20:04:01.187] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 101  [20:04:01.230] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 42.32505199313164ms
+Info 102  [20:04:01.230] Different program with same set of files
+Info 103  [20:04:01.518] forEachExternalModuleToImportFrom autoImportProvider: 0.4060399979352951
+Info 104  [20:04:03.271] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 105  [20:04:03.299] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 28.175294995307922ms
+Info 106  [20:04:03.299] Different program with same set of files
+Info 107  [20:04:03.642] forEachExternalModuleToImportFrom autoImportProvider: 1.0060939937829971
+Info 108  [20:04:05.878] forEachExternalModuleToImportFrom autoImportProvider: 1.0873139947652817
+Info 109  [20:04:18.040] forEachExternalModuleToImportFrom autoImportProvider: 1.661076009273529
+Info 110  [20:04:19.724] forEachExternalModuleToImportFrom autoImportProvider: 0.5105110108852386
+Info 111  [20:04:20.672] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 112  [20:04:20.705] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 32.31283900141716ms
+Info 113  [20:04:20.705] Different program with same set of files
+Info 114  [20:04:21.148] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 115  [20:04:21.177] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 29.152881011366844ms
+Info 116  [20:04:21.177] Different program with same set of files
+Info 117  [20:04:21.196] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 118  [20:04:21.209] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 12.848384007811546ms
+Info 119  [20:04:21.209] Different program with same set of files
+Info 120  [20:04:21.718] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 121  [20:04:21.751] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 32.50222700834274ms
+Info 122  [20:04:21.751] Different program with same set of files
+Info 123  [20:04:21.783] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 124  [20:04:21.812] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 29.02113001048565ms
+Info 125  [20:04:21.812] Different program with same set of files
+Info 126  [20:04:22.062] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 127  [20:04:22.090] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 27.907333999872208ms
+Info 128  [20:04:22.090] Different program with same set of files
+Info 129  [20:04:22.096] getCompletionData: Get current token: 0.049010008573532104
+Info 130  [20:04:22.096] getCompletionData: Is inside comment: 0.025756999850273132
+Info 131  [20:04:22.096] getCompletionData: Get previous token: 0.1997230052947998
+Info 132  [20:04:22.098] getCompletionsAtPosition: isCompletionListBlocker: 0.8883770108222961
+Info 133  [20:04:22.115] getExportInfoMap: cache miss or empty; calculating new results
+Info 134  [20:04:22.245] forEachExternalModuleToImportFrom autoImportProvider: 26.44223301112652
+Info 135  [20:04:22.245] getExportInfoMap: done in 131.39334599673748 ms
+Info 136  [20:04:22.267] collectAutoImports: resolved 9 module specifiers, plus 0 ambient and 10 from cache
+Info 137  [20:04:22.267] collectAutoImports: response is complete
+Info 138  [20:04:22.267] collectAutoImports: 21.402400001883507
+Info 139  [20:04:22.267] getCompletionData: Semantic work: 168.765713006258
+Info 140  [20:04:22.292] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.179327994585037
+Info 141  [20:04:22.955] Format host information updated
+Info 142  [20:04:22.958] getCompletionData: Get current token: 0.04295399785041809
+Info 143  [20:04:22.958] getCompletionData: Is inside comment: 0.01947200298309326
+Info 144  [20:04:22.958] getCompletionData: Get previous token: 0.16069398820400238
+Info 145  [20:04:22.958] getCompletionsAtPosition: isCompletionListBlocker: 0.008709996938705444
+Info 146  [20:04:22.965] getCompletionData: Semantic work: 6.641679003834724
+Info 147  [20:04:23.850] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 148  [20:04:23.883] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 32.819178000092506ms
+Info 149  [20:04:23.884] Different program with same set of files
+Info 150  [20:04:24.171] Format host information updated
+Info 151  [20:04:24.221] forEachExternalModuleToImportFrom autoImportProvider: 4.605850011110306
+Info 152  [20:04:25.509] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 153  [20:04:25.606] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 13 structureChanged: true structureIsReused:: SafeModules Elapsed: 97.15590600669384ms
+Info 154  [20:04:25.606] Different program with same set of files
+Info 155  [20:04:26.672] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 156  [20:04:26.815] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 14 structureChanged: true structureIsReused:: SafeModules Elapsed: 142.97905899584293ms
+Info 157  [20:04:26.815] Different program with same set of files
+Info 158  [20:04:27.573] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 159  [20:04:27.610] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 36.70670299232006ms
+Info 160  [20:04:27.610] Different program with same set of files
+Info 161  [20:04:27.611] getCompletionData: Get current token: 0.05741700530052185
+Info 162  [20:04:27.611] getCompletionData: Is inside comment: 0.03857499361038208
+Info 163  [20:04:27.612] getCompletionData: Get previous token: 0.2719480097293854
+Info 164  [20:04:27.612] getCompletionsAtPosition: isCompletionListBlocker: 0.010659992694854736
+Info 165  [20:04:27.625] getExportInfoMap: cache hit
+Info 166  [20:04:27.648] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 167  [20:04:27.648] collectAutoImports: response is complete
+Info 168  [20:04:27.648] collectAutoImports: 22.019427001476288
+Info 169  [20:04:27.648] getCompletionData: Semantic work: 35.785451009869576
+Info 170  [20:04:27.694] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 45.63846801221371
+Info 171  [20:04:28.354] Format host information updated
+Info 172  [20:04:28.388] forEachExternalModuleToImportFrom autoImportProvider: 1.7433910071849823
+Info 173  [20:04:28.689] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 174  [20:04:28.800] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 16 structureChanged: true structureIsReused:: SafeModules Elapsed: 110.20087099075317ms
+Info 175  [20:04:28.800] Different program with same set of files
+Info 176  [20:06:07.780] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 177  [20:06:07.781] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts#
+Info 178  [20:06:07.781] Elapsed:: 1.2755399942398071ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 179  [20:06:07.781] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 180  [20:06:07.782] Elapsed:: 0.6289779990911484ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 181  [20:08:01.812] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 182  [20:08:01.812] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html#
+Info 183  [20:08:01.812] Elapsed:: 0.2108059972524643ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 184  [20:08:01.812] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 185  [20:08:01.812] Elapsed:: 0.11847300827503204ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 186  [20:12:16.259] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 187  [20:12:16.260] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html
+Info 188  [20:12:16.260] Elapsed:: 0.40433499217033386ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 189  [20:12:16.260] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 190  [20:12:16.260] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html~
+Info 191  [20:12:16.260] Elapsed:: 0.26815199851989746ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 192  [20:12:16.260] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 193  [20:12:16.260] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html
+Info 194  [20:12:16.261] Elapsed:: 0.25294099748134613ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 195  [20:12:16.261] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 196  [20:12:16.261] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html#
+Info 197  [20:12:16.261] Elapsed:: 0.45371000468730927ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 198  [20:12:16.261] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 199  [20:12:16.262] Elapsed:: 0.18848900496959686ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 200  [20:12:16.262] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 201  [20:12:16.262] Elapsed:: 0.14500699937343597ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 202  [20:12:16.262] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 2:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 203  [20:12:16.262] Elapsed:: 0.14268000423908234ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/transaction.component.html 2:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 204  [20:12:16.262] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 205  [20:12:16.262] Elapsed:: 0.11584800481796265ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.html# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 206  [20:13:17.478] Search path: /home/lucas/Workspaces/darf-calc/src/app
+Info 207  [20:13:17.479] For info: /home/lucas/Workspaces/darf-calc/src/app/app.module.ts :: Config file name: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 208  [20:13:54.460] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 209  [20:13:54.492] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 31.115281000733376ms
+Info 210  [20:13:54.492] Different program with same set of files
+Info 211  [20:13:54.493] getCompletionData: Get current token: 0.04531799256801605
+Info 212  [20:13:54.493] getCompletionData: Is inside comment: 0.01067999005317688
+Info 213  [20:13:54.493] getCompletionData: Get previous token: 0.24251700937747955
+Info 214  [20:13:54.494] getCompletionsAtPosition: isCompletionListBlocker: 0.011308014392852783
+Info 215  [20:13:54.503] getExportInfoMap: cache miss or empty; calculating new results
+Info 216  [20:13:54.556] forEachExternalModuleToImportFrom autoImportProvider: 8.08627200126648
+Info 217  [20:13:54.556] getExportInfoMap: done in 53.01189801096916 ms
+Info 218  [20:13:54.570] collectAutoImports: resolved 2 module specifiers, plus 0 ambient and 0 from cache
+Info 219  [20:13:54.570] collectAutoImports: response is complete
+Info 220  [20:13:54.570] collectAutoImports: 13.92239199578762
+Info 221  [20:13:54.570] getCompletionData: Semantic work: 76.76409900188446
+Info 222  [20:13:54.605] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 27.919557005167007
+Info 223  [20:13:54.609] getCompletionData: Get current token: 0.022098004817962646
+Info 224  [20:13:54.609] getCompletionData: Is inside comment: 0.0076499879360198975
+Info 225  [20:13:54.609] getCompletionData: Get previous token: 0.07344900071620941
+Info 226  [20:13:54.609] getCompletionsAtPosition: isCompletionListBlocker: 0.002880007028579712
+Info 227  [20:13:54.612] getExportInfoMap: cache hit
+Info 228  [20:13:54.615] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 229  [20:13:54.615] collectAutoImports: response is complete
+Info 230  [20:13:54.615] collectAutoImports: 3.3838410079479218
+Info 231  [20:13:54.615] getCompletionData: Semantic work: 5.994577005505562
+Info 232  [20:13:54.630] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.215740993618965
+Info 233  [20:13:54.633] getCompletionData: Get current token: 0.02251899242401123
+Info 234  [20:13:54.633] getCompletionData: Is inside comment: 0.005710989236831665
+Info 235  [20:13:54.633] getCompletionData: Get previous token: 0.09450900554656982
+Info 236  [20:13:54.633] getCompletionsAtPosition: isCompletionListBlocker: 0.004507005214691162
+Info 237  [20:13:54.636] getExportInfoMap: cache hit
+Info 238  [20:13:54.643] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 239  [20:13:54.643] collectAutoImports: response is complete
+Info 240  [20:13:54.643] collectAutoImports: 7.117063000798225
+Info 241  [20:13:54.643] getCompletionData: Semantic work: 10.117679998278618
+Info 242  [20:13:54.662] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.295628994703293
+Info 243  [20:13:54.664] getCompletionData: Get current token: 0.013826996088027954
+Info 244  [20:13:54.664] getCompletionData: Is inside comment: 0.0025610029697418213
+Info 245  [20:13:54.664] getCompletionData: Get previous token: 0.04481101036071777
+Info 246  [20:13:54.664] getCompletionsAtPosition: isCompletionListBlocker: 0.002183005213737488
+Info 247  [20:13:54.666] getExportInfoMap: cache hit
+Info 248  [20:13:54.671] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 249  [20:13:54.671] collectAutoImports: response is complete
+Info 250  [20:13:54.671] collectAutoImports: 4.783722013235092
+Info 251  [20:13:54.671] getCompletionData: Semantic work: 7.107922002673149
+Info 252  [20:13:54.681] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.006873995065689
+Info 253  [20:13:54.800] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 254  [20:13:54.817] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 16.68791799247265ms
+Info 255  [20:13:54.817] Different program with same set of files
+Info 256  [20:13:55.040] getCompletionData: Get current token: 0.06176199018955231
+Info 257  [20:13:55.040] getCompletionData: Is inside comment: 0.010295003652572632
+Info 258  [20:13:55.040] getCompletionData: Get previous token: 0.12856601178646088
+Info 259  [20:13:55.040] getCompletionsAtPosition: isCompletionListBlocker: 0.006214991211891174
+Info 260  [20:13:55.044] getExportInfoMap: cache hit
+Info 261  [20:13:55.049] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 262  [20:13:55.049] collectAutoImports: response is complete
+Info 263  [20:13:55.049] collectAutoImports: 4.722075998783112
+Info 264  [20:13:55.049] getCompletionData: Semantic work: 8.583319008350372
+Info 265  [20:13:55.064] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.31861999630928
+Info 266  [20:13:55.069] getCompletionData: Get current token: 0.02566199004650116
+Info 267  [20:13:55.069] getCompletionData: Is inside comment: 0.004648998379707336
+Info 268  [20:13:55.069] getCompletionData: Get previous token: 0.08418899774551392
+Info 269  [20:13:55.069] getCompletionsAtPosition: isCompletionListBlocker: 0.008956998586654663
+Info 270  [20:13:55.072] getExportInfoMap: cache hit
+Info 271  [20:13:55.076] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 272  [20:13:55.077] collectAutoImports: response is complete
+Info 273  [20:13:55.077] collectAutoImports: 4.359018996357918
+Info 274  [20:13:55.077] getCompletionData: Semantic work: 7.385883003473282
+Info 275  [20:13:55.088] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.077110007405281
+Info 276  [20:13:55.092] getCompletionData: Get current token: 0.024331003427505493
+Info 277  [20:13:55.092] getCompletionData: Is inside comment: 0.003742992877960205
+Info 278  [20:13:55.092] getCompletionData: Get previous token: 0.07910700142383575
+Info 279  [20:13:55.092] getCompletionsAtPosition: isCompletionListBlocker: 0.005737006664276123
+Info 280  [20:13:55.096] getExportInfoMap: cache hit
+Info 281  [20:13:55.100] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 282  [20:13:55.100] collectAutoImports: response is complete
+Info 283  [20:13:55.100] collectAutoImports: 3.745264008641243
+Info 284  [20:13:55.100] getCompletionData: Semantic work: 7.980434998869896
+Info 285  [20:13:55.107] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.434176996350288
+Info 286  [20:13:55.109] getCompletionData: Get current token: 0.013369008898735046
+Info 287  [20:13:55.109] getCompletionData: Is inside comment: 0.002786010503768921
+Info 288  [20:13:55.109] getCompletionData: Get previous token: 0.05698500573635101
+Info 289  [20:13:55.109] getCompletionsAtPosition: isCompletionListBlocker: 0.0032359957695007324
+Info 290  [20:13:55.111] getExportInfoMap: cache hit
+Info 291  [20:13:55.114] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 292  [20:13:55.114] collectAutoImports: response is complete
+Info 293  [20:13:55.114] collectAutoImports: 2.7339830100536346
+Info 294  [20:13:55.114] getCompletionData: Semantic work: 4.513271003961563
+Info 295  [20:13:55.119] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.602987989783287
+Info 296  [20:13:55.242] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 297  [20:13:55.268] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 25.843266010284424ms
+Info 298  [20:13:55.268] Different program with same set of files
+Info 299  [20:13:55.271] getCompletionData: Get current token: 0.08451400697231293
+Info 300  [20:13:55.271] getCompletionData: Is inside comment: 0.01580899953842163
+Info 301  [20:13:55.272] getCompletionData: Get previous token: 0.3057419955730438
+Info 302  [20:13:55.272] getCompletionsAtPosition: isCompletionListBlocker: 0.010719001293182373
+Info 303  [20:13:55.282] getExportInfoMap: cache hit
+Info 304  [20:13:55.300] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 305  [20:13:55.300] collectAutoImports: response is complete
+Info 306  [20:13:55.301] collectAutoImports: 17.94183300435543
+Info 307  [20:13:55.301] getCompletionData: Semantic work: 28.472130998969078
+Info 308  [20:13:55.367] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.577991008758545
+Info 309  [20:13:55.913] Format host information updated
+Info 310  [20:13:55.956] forEachExternalModuleToImportFrom autoImportProvider: 3.073606997728348
+Info 311  [20:13:56.515] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 312  [20:13:56.639] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 20 structureChanged: true structureIsReused:: SafeModules Elapsed: 124.41612900793552ms
+Info 313  [20:13:56.639] Different program with same set of files
+Info 314  [20:14:21.563] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 315  [20:14:21.637] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 21 structureChanged: true structureIsReused:: SafeModules Elapsed: 73.68184600770473ms
+Info 316  [20:14:21.637] Different program with same set of files
+Info 317  [20:14:22.042] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 318  [20:14:22.078] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 35.36403501033783ms
+Info 319  [20:14:22.078] Different program with same set of files
+Info 320  [20:14:30.354] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 321  [20:14:30.386] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 31.497418001294136ms
+Info 322  [20:14:30.386] Different program with same set of files
+Info 323  [20:14:30.716] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 324  [20:14:30.728] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 11.540543004870415ms
+Info 325  [20:14:30.728] Different program with same set of files
+Info 326  [20:14:31.971] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 327  [20:14:31.995] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 23.791714996099472ms
+Info 328  [20:14:31.995] Different program with same set of files
+Info 329  [20:14:32.168] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 330  [20:14:32.195] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 26.434661000967026ms
+Info 331  [20:14:32.195] Different program with same set of files
+Info 332  [20:14:32.249] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 333  [20:14:32.289] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 39.791731998324394ms
+Info 334  [20:14:32.289] Different program with same set of files
+Info 335  [20:14:32.420] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 336  [20:14:32.453] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 33.24134600162506ms
+Info 337  [20:14:32.455] Different program with same set of files
+Info 338  [20:14:32.493] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 339  [20:14:32.521] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 27.782961010932922ms
+Info 340  [20:14:32.521] Different program with same set of files
+Info 341  [20:14:32.538] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 342  [20:14:32.564] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 25.04075199365616ms
+Info 343  [20:14:32.564] Different program with same set of files
+Info 344  [20:14:32.739] getCompletionData: Get current token: 0.01180499792098999
+Info 345  [20:14:32.739] getCompletionData: Is inside comment: 0.02985300123691559
+Info 346  [20:14:32.739] getCompletionData: Get previous token: 0.03727400302886963
+Info 347  [20:14:32.739] getCompletionsAtPosition: isCompletionListBlocker: 0.06236100196838379
+Info 348  [20:14:32.742] getExportInfoMap: cache hit
+Info 349  [20:14:32.746] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 350  [20:14:32.746] collectAutoImports: response is complete
+Info 351  [20:14:32.746] collectAutoImports: 4.033199995756149
+Info 352  [20:14:32.746] getCompletionData: Semantic work: 6.675823003053665
+Info 353  [20:14:32.763] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.97257998585701
+Info 354  [20:14:33.374] Format host information updated
+Info 355  [20:14:33.408] forEachExternalModuleToImportFrom autoImportProvider: 1.4789330065250397
+Info 356  [20:14:34.202] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 357  [20:14:34.281] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 31 structureChanged: true structureIsReused:: SafeModules Elapsed: 78.88257500529289ms
+Info 358  [20:14:34.281] Different program with same set of files
+Info 359  [20:14:35.401] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 360  [20:14:35.493] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 32 structureChanged: true structureIsReused:: SafeModules Elapsed: 91.40647199749947ms
+Info 361  [20:14:35.493] Different program with same set of files
+Info 362  [20:14:36.099] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 363  [20:14:36.129] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 29.65861800312996ms
+Info 364  [20:14:36.129] Different program with same set of files
+Info 365  [20:14:36.268] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 366  [20:14:36.294] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 25.79033900797367ms
+Info 367  [20:14:36.294] Different program with same set of files
+Info 368  [20:14:36.366] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 369  [20:14:36.386] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 20.18315200507641ms
+Info 370  [20:14:36.386] Different program with same set of files
+Info 371  [20:14:36.568] getCompletionData: Get current token: 0.09310999512672424
+Info 372  [20:14:36.568] getCompletionData: Is inside comment: 0.13841401040554047
+Info 373  [20:14:36.569] getCompletionData: Get previous token: 0.26481300592422485
+Info 374  [20:14:36.569] getCompletionsAtPosition: isCompletionListBlocker: 0.021783992648124695
+Info 375  [20:14:36.579] getExportInfoMap: cache hit
+Info 376  [20:14:36.598] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 377  [20:14:36.598] collectAutoImports: response is complete
+Info 378  [20:14:36.598] collectAutoImports: 19.315938010811806
+Info 379  [20:14:36.599] getCompletionData: Semantic work: 29.31718499958515
+Info 380  [20:14:36.663] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 61.27855099737644
+Info 381  [20:14:38.197] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 382  [20:14:38.221] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 23.787149995565414ms
+Info 383  [20:14:38.221] Different program with same set of files
+Info 384  [20:14:38.885] Format host information updated
+Info 385  [20:14:38.886] Format host information updated
+Info 386  [20:14:38.888] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 387  [20:14:38.928] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 39.468208998441696ms
+Info 388  [20:14:38.928] Different program with same set of files
+Info 389  [20:14:38.963] forEachExternalModuleToImportFrom autoImportProvider: 0.9758590012788773
+Info 390  [20:14:38.974] forEachExternalModuleToImportFrom autoImportProvider: 1.4720509946346283
+Info 391  [20:14:39.182] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 392  [20:14:39.268] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 38 structureChanged: true structureIsReused:: SafeModules Elapsed: 86.46099500358105ms
+Info 393  [20:14:39.268] Different program with same set of files
+Info 394  [20:14:53.359] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 395  [20:14:53.374] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 15.441738992929459ms
+Info 396  [20:14:53.374] Different program with same set of files
+Info 397  [20:14:54.091] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 398  [20:14:54.114] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 22.362199991941452ms
+Info 399  [20:14:54.114] Different program with same set of files
+Info 400  [20:14:54.277] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 401  [20:14:54.297] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 20.118672996759415ms
+Info 402  [20:14:54.297] Different program with same set of files
+Info 403  [20:14:56.551] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 404  [20:14:56.574] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 22.433449998497963ms
+Info 405  [20:14:56.574] Different program with same set of files
+Info 406  [20:14:56.815] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 407  [20:14:56.819] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 4.5633479952812195ms
+Info 408  [20:14:56.819] Different program with same set of files
+Info 409  [20:14:57.454] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 410  [20:14:57.461] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 6.634040996432304ms
+Info 411  [20:14:57.461] Different program with same set of files
+Info 412  [20:14:57.925] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 413  [20:14:57.940] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 15.53506800532341ms
+Info 414  [20:14:57.940] Different program with same set of files
+Info 415  [20:15:01.013] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 416  [20:15:01.013] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_
+Info 417  [20:15:01.014] Elapsed:: 0.6731730103492737ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 418  [20:15:01.014] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 419  [20:15:01.014] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_
+Info 420  [20:15:01.014] Elapsed:: 0.10707300901412964ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 421  [20:15:01.014] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 422  [20:15:01.014] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_
+Info 423  [20:15:01.014] Elapsed:: 0.08534599840641022ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 424  [20:15:01.014] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 425  [20:15:01.014] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 426  [20:15:01.014] Elapsed:: 0.08094899356365204ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 427  [20:15:01.014] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 428  [20:15:01.014] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 429  [20:15:01.014] Elapsed:: 0.13136599957942963ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 430  [20:15:01.014] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 431  [20:15:01.014] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 432  [20:15:01.015] Elapsed:: 0.12047800421714783ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 433  [20:15:01.015] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 434  [20:15:01.015] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 435  [20:15:01.015] Elapsed:: 0.11948899924755096ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 436  [20:15:01.015] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 437  [20:15:01.015] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_
+Info 438  [20:15:01.015] Elapsed:: 0.13067001104354858ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 439  [20:15:01.015] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 440  [20:15:01.015] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack
+Info 441  [20:15:01.015] Elapsed:: 0.1207830011844635ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/5.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 442  [20:15:01.015] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 443  [20:15:01.016] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_
+Info 444  [20:15:01.016] Elapsed:: 0.1325400024652481ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 445  [20:15:01.016] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 446  [20:15:01.016] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack
+Info 447  [20:15:01.016] Elapsed:: 0.1347140073776245ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/7.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 448  [20:15:01.016] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 449  [20:15:01.016] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_
+Info 450  [20:15:01.016] Elapsed:: 0.1512959897518158ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 451  [20:15:01.017] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 452  [20:15:01.017] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack
+Info 453  [20:15:01.017] Elapsed:: 0.1544319987297058ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 454  [20:15:01.017] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 455  [20:15:01.017] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 456  [20:15:01.017] Elapsed:: 0.18769700825214386ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 457  [20:15:01.017] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 14:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 458  [20:15:01.017] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack
+Info 459  [20:15:01.017] Elapsed:: 0.12151899933815002ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 14:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 460  [20:15:01.018] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 15:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 461  [20:15:01.018] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 462  [20:15:01.018] Elapsed:: 0.10992699861526489ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 15:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 463  [20:15:01.018] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 16:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 464  [20:15:01.018] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 465  [20:15:01.018] Elapsed:: 0.10911200940608978ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 16:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 466  [20:15:04.437] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 467  [20:15:04.459] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 21.18827199935913ms
+Info 468  [20:15:04.459] Different program with same set of files
+Info 469  [20:15:06.206] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 470  [20:15:06.243] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 37.15345899760723ms
+Info 471  [20:15:06.243] Different program with same set of files
+Info 472  [20:15:06.394] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 473  [20:15:06.415] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 20.364932000637054ms
+Info 474  [20:15:06.415] Different program with same set of files
+Info 475  [20:15:06.721] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 476  [20:15:06.750] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 29.500736996531487ms
+Info 477  [20:15:06.750] Different program with same set of files
+Info 478  [20:15:06.927] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 479  [20:15:06.951] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 23.65890198945999ms
+Info 480  [20:15:06.951] Different program with same set of files
+Info 481  [20:15:09.401] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 482  [20:15:09.424] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 23.059588998556137ms
+Info 483  [20:15:09.424] Different program with same set of files
+Info 484  [20:16:11.465] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 485  [20:16:11.465] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 486  [20:16:11.465] Elapsed:: 0.22984100878238678ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 487  [20:16:11.465] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 488  [20:16:11.465] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_
+Info 489  [20:16:11.465] Elapsed:: 0.14119799435138702ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 490  [20:16:11.466] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 491  [20:16:11.466] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 492  [20:16:11.466] Elapsed:: 0.15499600768089294ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 493  [20:16:11.466] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 494  [20:16:11.466] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 495  [20:16:11.466] Elapsed:: 0.12862201035022736ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 496  [20:16:11.466] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 497  [20:16:11.466] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 498  [20:16:11.467] Elapsed:: 0.2421730011701584ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 499  [20:16:11.467] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 500  [20:16:11.467] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 501  [20:16:11.467] Elapsed:: 0.18997898697853088ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 502  [20:16:11.467] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 503  [20:16:11.467] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack
+Info 504  [20:16:11.467] Elapsed:: 0.24916599690914154ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 505  [20:16:11.467] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 506  [20:16:11.468] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_
+Info 507  [20:16:11.468] Elapsed:: 0.17802900075912476ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 508  [20:16:11.468] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 509  [20:16:11.468] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack
+Info 510  [20:16:11.468] Elapsed:: 0.1625399887561798ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/6.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 511  [20:16:11.468] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 512  [20:16:11.468] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 513  [20:16:11.469] Elapsed:: 0.5509210079908371ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 514  [20:16:11.469] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 515  [20:16:11.469] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 516  [20:16:11.469] Elapsed:: 0.15114399790763855ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 517  [20:19:19.775] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 518  [20:19:19.823] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 52 structureChanged: true structureIsReused:: SafeModules Elapsed: 47.243578001856804ms
+Info 519  [20:19:19.823] Different program with same set of files
+Info 520  [20:20:23.507] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 521  [20:20:23.508] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_
+Info 522  [20:20:23.508] Elapsed:: 0.22820499539375305ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 523  [20:20:23.508] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 524  [20:20:23.508] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 525  [20:20:23.508] Elapsed:: 0.14730499684810638ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 526  [20:20:23.508] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 527  [20:20:23.508] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 528  [20:20:23.508] Elapsed:: 0.11764399707317352ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 529  [20:20:23.508] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 530  [20:20:23.508] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 531  [20:20:23.509] Elapsed:: 0.16124999523162842ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 532  [20:20:23.509] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 533  [20:20:23.509] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 534  [20:20:23.509] Elapsed:: 0.14745000004768372ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 535  [20:20:23.509] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 536  [20:20:23.509] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_
+Info 537  [20:20:23.509] Elapsed:: 0.0793360024690628ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 538  [20:20:23.509] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 539  [20:20:23.509] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack
+Info 540  [20:20:23.509] Elapsed:: 0.08031100034713745ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 541  [20:20:23.509] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 542  [20:20:23.509] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 543  [20:20:23.509] Elapsed:: 0.07077300548553467ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 544  [20:20:23.509] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 545  [20:20:23.509] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack
+Info 546  [20:20:23.510] Elapsed:: 0.07087498903274536ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 547  [20:20:23.510] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 548  [20:20:23.510] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 549  [20:20:23.510] Elapsed:: 0.0804390013217926ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 550  [20:20:23.510] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 551  [20:20:23.510] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 552  [20:20:23.510] Elapsed:: 0.07558698952198029ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 553  [20:20:24.045] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 554  [20:20:24.052] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 6.560822010040283ms
+Info 555  [20:20:24.052] Different program with same set of files
+Info 556  [20:20:25.115] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 557  [20:20:25.140] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 24.26816299557686ms
+Info 558  [20:20:25.140] Different program with same set of files
+Info 559  [20:20:26.803] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 560  [20:20:26.804] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts#
+Info 561  [20:20:26.804] Elapsed:: 0.46798399090766907ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 562  [20:20:26.804] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 563  [20:20:26.805] Elapsed:: 0.5199940055608749ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/transaction/#transaction.component.ts# 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 564  [20:21:27.164] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 565  [20:21:27.164] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 566  [20:21:27.164] Elapsed:: 0.21528799831867218ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 567  [20:21:27.164] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 568  [20:21:27.164] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 569  [20:21:27.164] Elapsed:: 0.10490800440311432ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 570  [20:21:27.164] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 571  [20:21:27.164] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_
+Info 572  [20:21:27.164] Elapsed:: 0.07095400989055634ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 573  [20:21:27.164] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 574  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 575  [20:21:27.165] Elapsed:: 0.11476500332355499ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 576  [20:21:27.165] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 577  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 578  [20:21:27.165] Elapsed:: 0.08196000754833221ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 579  [20:21:27.165] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 580  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 581  [20:21:27.165] Elapsed:: 0.07268999516963959ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 582  [20:21:27.165] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 583  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_
+Info 584  [20:21:27.165] Elapsed:: 0.07768499851226807ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 585  [20:21:27.165] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 586  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack
+Info 587  [20:21:27.165] Elapsed:: 0.08469399809837341ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/9.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 588  [20:21:27.165] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 589  [20:21:27.165] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_
+Info 590  [20:21:27.165] Elapsed:: 0.08524300158023834ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack_ 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 591  [20:21:27.166] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 592  [20:21:27.166] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack
+Info 593  [20:21:27.166] Elapsed:: 0.0792279988527298ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/2.pack 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 594  [20:21:27.166] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 595  [20:21:27.166] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 596  [20:21:27.166] Elapsed:: 0.06829200685024261ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 597  [20:21:27.166] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 598  [20:21:27.166] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack
+Info 599  [20:21:27.166] Elapsed:: 0.07634299993515015ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 11:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 600  [20:21:27.166] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 601  [20:21:27.166] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 602  [20:21:27.166] Elapsed:: 0.08313500881195068ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 12:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 603  [20:21:27.166] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 604  [20:21:27.166] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 605  [20:21:27.166] Elapsed:: 0.07161599397659302ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 13:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 606  [20:21:32.137] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 607  [20:21:32.157] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 20.54220400750637ms
+Info 608  [20:21:32.158] Different program with same set of files
+Info 609  [20:21:32.942] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 610  [20:21:32.960] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 18.258769989013672ms
+Info 611  [20:21:32.960] Different program with same set of files
+Info 612  [20:21:34.266] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 613  [20:21:34.287] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 20.616742998361588ms
+Info 614  [20:21:34.287] Different program with same set of files
+Info 615  [20:21:35.109] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 616  [20:21:35.126] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 16.587319999933243ms
+Info 617  [20:21:35.126] Different program with same set of files
+Info 618  [20:21:36.223] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 619  [20:21:36.232] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 9.305799007415771ms
+Info 620  [20:21:36.232] Different program with same set of files
+Info 621  [20:21:37.055] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 622  [20:21:37.058] Elapsed:: 1.9074599891901016ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 623  [20:21:37.058] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 624  [20:21:37.058] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts~
+Info 625  [20:21:37.058] Elapsed:: 0.3428200036287308ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 626  [20:21:37.058] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 627  [20:21:37.059] Elapsed:: 0.6108889877796173ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 628  [20:21:37.059] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/#stock.entity.ts# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 629  [20:21:37.060] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/src/app/services/entities/#stock.entity.ts#
+Info 630  [20:21:37.060] Elapsed:: 0.2425510138273239ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/#stock.entity.ts# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 631  [20:21:37.060] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 632  [20:21:37.060] Elapsed:: 0.14312800765037537ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 0:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 633  [20:21:37.060] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 634  [20:21:37.060] Elapsed:: 0.12337899208068848ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts~ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 635  [20:21:37.060] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 2:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 636  [20:21:37.061] Elapsed:: 0.08588099479675293ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/stock.entity.ts 2:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 637  [20:21:37.061] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/#stock.entity.ts# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 638  [20:21:37.061] Elapsed:: 0.13111799955368042ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/src/app/services/entities/#stock.entity.ts# 3:: WatchInfo: /home/lucas/Workspaces/darf-calc/src 1 undefined Project: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Failed Lookup Locations
+Info 639  [20:21:40.964] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 640  [20:21:40.985] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 21.057384997606277ms
+Info 641  [20:21:40.986] Different program with same set of files
+Info 642  [20:21:40.986] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 643  [20:21:40.997] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 10.746024996042252ms
+Info 644  [20:21:40.997] Different program with same set of files
+Info 645  [20:21:41.355] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 646  [20:21:41.379] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 23.70509299635887ms
+Info 647  [20:21:41.379] Different program with same set of files
+Info 648  [20:21:41.381] getCompletionData: Get current token: 0.020308002829551697
+Info 649  [20:21:41.381] getCompletionData: Is inside comment: 0.00987599790096283
+Info 650  [20:21:41.381] getCompletionData: Get previous token: 0.09754699468612671
+Info 651  [20:21:41.381] getCompletionsAtPosition: isCompletionListBlocker: 0.014854013919830322
+Info 652  [20:21:41.381] getCompletionData: Semantic work: 0.09636200964450836
+Info 653  [20:21:41.382] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.46547800302505493
+Info 654  [20:21:41.647] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 655  [20:21:41.664] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 16.637104004621506ms
+Info 656  [20:21:41.664] Different program with same set of files
+Info 657  [20:21:42.325] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 658  [20:21:42.349] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 23.833963990211487ms
+Info 659  [20:21:42.349] Different program with same set of files
+Info 660  [20:21:51.813] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 661  [20:21:51.837] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 24.159861996769905ms
+Info 662  [20:21:51.838] Different program with same set of files
+Info 663  [20:21:52.190] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 664  [20:21:52.215] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 25.39086700975895ms
+Info 665  [20:21:52.216] Different program with same set of files
+Info 666  [20:21:52.589] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 667  [20:21:52.612] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 23.264023005962372ms
+Info 668  [20:21:52.612] Different program with same set of files
+Info 669  [20:21:52.613] getCompletionData: Get current token: 0.026221007108688354
+Info 670  [20:21:52.613] getCompletionData: Is inside comment: 0.05610699951648712
+Info 671  [20:21:52.613] getCompletionData: Get previous token: 0.07264900207519531
+Info 672  [20:21:52.613] getCompletionsAtPosition: isCompletionListBlocker: 0.013401001691818237
+Info 673  [20:21:52.614] getCompletionData: Semantic work: 0.0588189959526062
+Info 674  [20:21:52.614] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.06550000607967377
+Info 675  [20:21:53.365] Starting updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json
+Info 676  [20:21:53.387] Finishing updateGraphWorker: Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 21.041372001171112ms
+Info 677  [20:21:53.387] Different program with same set of files
+Info 678  [20:21:53.680] Format host information updated
+Info 679  [20:21:53.682] getCompletionData: Get current token: 0.10107599198818207
+Info 680  [20:21:53.682] getCompletionData: Is inside comment: 0.01961599290370941
+Info 681  [20:21:53.683] getCompletionData: Get previous token: 0.18324600160121918
+Info 682  [20:21:53.683] getCompletionsAtPosition: isCompletionListBlocker: 0.01582498848438263
+Info 683  [20:21:53.683] getCompletionData: Semantic work: 0.08059900999069214
+Info 684  [20:23:52.804] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 685  [20:23:52.805] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 686  [20:23:52.805] Elapsed:: 0.23705200850963593ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 687  [20:23:52.805] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 688  [20:23:52.805] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 689  [20:23:52.805] Elapsed:: 0.12288400530815125ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 690  [20:23:52.805] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 691  [20:23:52.805] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 692  [20:23:52.805] Elapsed:: 0.16750900447368622ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 693  [20:23:52.805] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 694  [20:23:52.806] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 695  [20:23:52.806] Elapsed:: 0.17056399583816528ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 696  [20:23:52.806] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 697  [20:23:52.806] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 698  [20:23:52.806] Elapsed:: 0.15295100212097168ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 699  [20:23:52.806] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 700  [20:23:52.806] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_
+Info 701  [20:23:52.806] Elapsed:: 0.14845599234104156ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack_ 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 702  [20:23:52.807] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 703  [20:23:52.807] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack
+Info 704  [20:23:52.807] Elapsed:: 0.18420200049877167ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/8.pack 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 705  [20:23:52.807] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 706  [20:23:52.807] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 707  [20:23:52.807] Elapsed:: 0.15668600797653198ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 708  [20:23:52.807] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 709  [20:23:52.807] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack
+Info 710  [20:23:52.808] Elapsed:: 0.167263001203537ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 8:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 711  [20:23:52.808] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 712  [20:23:52.808] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 713  [20:23:52.808] Elapsed:: 0.1549530029296875ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 9:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 714  [20:23:52.808] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 715  [20:23:52.808] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 716  [20:23:52.808] Elapsed:: 0.207055002450943ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 10:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 717  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 718  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 719  [20:25:13.096] Elapsed:: 0.1108739972114563ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 720  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 721  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 722  [20:25:13.096] Elapsed:: 0.06969800591468811ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 723  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 724  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 725  [20:25:13.096] Elapsed:: 0.04821999371051788ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 726  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 727  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 728  [20:25:13.096] Elapsed:: 0.04479201138019562ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 729  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 730  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 731  [20:25:13.096] Elapsed:: 0.046974003314971924ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 732  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 733  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack
+Info 734  [20:25:13.096] Elapsed:: 0.05196501314640045ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 735  [20:25:13.096] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 736  [20:25:13.096] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 737  [20:25:13.097] Elapsed:: 0.04156200587749481ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 738  [20:25:13.097] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 739  [20:25:13.097] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 740  [20:25:13.097] Elapsed:: 0.044281005859375ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 741  [20:28:21.528] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 742  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 743  [20:28:21.529] Elapsed:: 0.15328599512577057ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 0:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 744  [20:28:21.529] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 745  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 746  [20:28:21.529] Elapsed:: 0.10487499833106995ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 1:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 747  [20:28:21.529] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 748  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 749  [20:28:21.529] Elapsed:: 0.09017299115657806ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 2:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 750  [20:28:21.529] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 751  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old
+Info 752  [20:28:21.529] Elapsed:: 0.08020099997520447ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack.old 3:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 753  [20:28:21.529] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 754  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_
+Info 755  [20:28:21.529] Elapsed:: 0.08489499986171722ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack_ 4:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 756  [20:28:21.529] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 757  [20:28:21.529] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack
+Info 758  [20:28:21.530] Elapsed:: 0.07707500457763672ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/10.pack 5:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 759  [20:28:21.530] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 760  [20:28:21.530] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_
+Info 761  [20:28:21.530] Elapsed:: 0.12347899377346039ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack_ 6:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 762  [20:28:21.530] DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
+Info 763  [20:28:21.530] Project: /home/lucas/Workspaces/darf-calc/tsconfig.json Detected file add/remove of non supported extension: /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack
+Info 764  [20:28:21.530] Elapsed:: 0.08633100986480713ms DirectoryWatcher:: Triggered with /home/lucas/Workspaces/darf-calc/.angular/cache/14.0.4/angular-webpack/2767a32639cd47941ed9ba90d9ee4fa6c28a28a7/index.pack 7:: WatchInfo: /home/lucas/Workspaces/darf-calc 1 undefined Config: /home/lucas/Workspaces/darf-calc/tsconfig.json WatchType: Wild card directory
